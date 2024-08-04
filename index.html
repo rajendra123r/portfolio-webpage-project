@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+         /* ----navbar----- */
+
+        .navbar{
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+           padding: 0px 50px;
+           font-size: large;
+           font-weight: 500;
+           background-color: rgb(244, 243, 242);
+           border-bottom: rgba(0, 0, 0, 0.37) solid 2px;
+        
+        }
+       .right,ul,li{
+        display: inline-block;
+        margin-right: 20px;
+
+        
+       }
+       .right,ul,li,a{
+        list-style-type: none;
+        text-decoration: none;
+        padding:  0px  10px;
+        color: black;
+       
+       
+       }
+
+       .left{
+        font-size: x-large;
+        position: relative;
+        left: 150px;
+       
+       }
+
+       a:hover{
+       color: blue;
+        padding: 10px;
+       }
+       .text-1{
+        color: blue;
+       }
+
+/* ------section------ */
+.section{
+
+    background-color: rgb(244, 243, 242);
+    display: flex;    
+    justify-content: space-between;
+    height: 90vh;
+
+}
+
+.sec-left{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:60px;
+    font-weight: 400;
+    position: relative;
+    top: 180px;
+    left: 200px;
+    height: 300px;
+    
+}
+.sec-right{
+   position: relative;
+   top: 10px;
+   right: 280px;
+
+
+ 
+}
+.span-2{
+    color: blue;
+}
+ 
+.btn-1{
+    background-color: blue;
+    color: white;
+    padding: 13px 40px;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    font-weight: 600;
+  
+
+}
+.btn-2{
+   background-color: rgba(129, 126, 126, 0.145);
+    padding: 13px 22px;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-left: 30px;
+    
+
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <!----navbar---->
+    <header class="header">
+        <nav class="navbar">
+            <div class="left">
+                <span class="span-1">RAJENDRA</span>
+            </div>
+           
+        <div class="right">
+            <ul>
+                <li><a href="#" class="text-1">Home</a></li>
+                <li><a href="#" class="text">About</a></li>
+                <li><a href="#" class="text">Pricing</a></li>
+                <li><a href="#" class="text">Contect</a></li>
+            </ul>
+        </div>
+      
+        </nav>
+    </header>
+
+    <!-----section----->
+
+    <section class="section">
+       
+            <div class="sec-left">
+                <p class="pra">
+                    Hi,
+                    <br>I am <span class="span-2">Developer</span>
+                </p>
+                 <button class="btn-1">Hire Me</button>
+                 <button class="btn-2">Latest Works</button>
+            </div>
+            <div class="sec-right">
+                <img  class="img" src="./WhatsApp_Image_2024-05-25_at_22.52.07_5ce7611c-removebg-preview (2).png" alt="image">
+             
+            </div>
+
+          
+      
+
+    </section>
+</body>
+</html>
